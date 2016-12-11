@@ -1,0 +1,25 @@
+get_user_first_name: -> first_name
+	first_name = data.first_name
+end
+
+
+get_user_last_name: -> last_name
+	last_name = data.last_name
+end
+
+
+get_first_name: -> first_name
+	first_name = data.first_name
+end
+
+
+unary print:
+	print data.fistname, data.lastname
+end
+
+
+binary 2 wed_with: user1 as User, user2 as User -> couple as Couple
+	Couple local_couple
+
+	couple = local_couple
+end

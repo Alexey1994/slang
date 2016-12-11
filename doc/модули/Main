@@ -1,0 +1,22 @@
+User  husband
+User  wife
+
+husband.first_name = 'Harry'
+husband.last_name  = 'Smith'
+
+wife.first_name = 'Ovilia'
+wife.last_name  = 'Wild'
+
+
+print  husband wed_with wife
+
+
+print  husband wed wife
+
+
+User husband
+User wife
+
+print Couple.wed(husband, wife)
+
+поменять_местами левый и правый элемент

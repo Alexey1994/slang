@@ -1,0 +1,4 @@
+binary 2 bind_to_window  button as Button, window as Window
+
+unary is_pressed  button as Button  ->  pressed
+unary is_clicked  button as Button  ->  clicked

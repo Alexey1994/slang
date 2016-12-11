@@ -1,0 +1,18 @@
+operator +: Complex a, Complex b -> Complex c
+	c.real = a.real + b.real
+	c.image = a.image + b.image
+end
+
+
+operator print: Complex a
+	print a.real
+	print '+i'
+	print a.image
+end
+
+
+Complex a
+Complex b
+
+
+print a + b

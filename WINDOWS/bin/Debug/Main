@@ -1,0 +1,19 @@
+f: x,y -> z
+	for a = qw , a , a
+		if a
+		end
+
+		loop
+		end
+	end
+
+	goto a
+	label a
+
+	loop
+		break
+	end
+
+	g: a -> b
+	end
+end

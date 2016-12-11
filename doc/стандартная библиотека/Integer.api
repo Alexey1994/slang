@@ -1,0 +1,10 @@
+value
+
+binary 2 +    a, b as Integer  ->  c as Integer
+binary 2 -    a, b as Integer  ->  c as Integer
+binary 3 *    a, b as Integer  ->  c as Integer
+binary 3 /    a, b as Integer  ->  c as Integer
+binary 3 mod  a, b as Integer  ->  c as Integer
+binary 0 =    a, b as Integer
+unary -       a                ->  minus_a as Integer
+unary print   a

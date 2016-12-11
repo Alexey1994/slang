@@ -1,0 +1,13 @@
+#ifndef CONDITION_H_INCLUDED
+#define CONDITION_H_INCLUDED
+
+
+#define CONDITION_AND 0
+#define CONDITION_OR  1
+#define CONDITION_NOT 0
+
+
+
+
+
+#endif // CONDITION_H_INCLUDED

@@ -1,0 +1,33 @@
+binary 0 =   a, b as Integer
+	a.value = b.value
+end
+
+
+binary 2 +  a, b as Integer -> c as Integer
+	c.value = System.plus_int_int(a.value, b.value)
+end
+
+
+binary 2 -  a, b as Integer -> c as Integer
+	c.value = System.minus_int_int(a.value, b.value)
+end
+
+
+binary 3 *  a, b as Integer -> c as Integer
+	c.value = System.mul_int_int(a.value, b.value)
+end
+
+
+binary 3 /  a, b as Integer -> c as Integer
+	c.value = System.div_int_int(a.value, b.value)
+end
+
+
+binary 3 mod  a, b as Integer -> c as Integer
+	c.value = System.mod_int_int(a.value, b.value)
+end
+
+
+unary -  a -> minus_a as Integer
+	minus_a = System.minus_int(a.value)
+end

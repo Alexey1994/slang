@@ -1,0 +1,11 @@
+if
+else
+while
+do
+loop
+for
+end
+continue
+break
+goto
+label

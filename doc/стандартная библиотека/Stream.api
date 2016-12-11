@@ -1,0 +1,5 @@
+source
+head
+
+unary get_byte_from  ->  byte as Byte
+binary 2 put_byte  stream as Stream, byte

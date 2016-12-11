@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Slang" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/main" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="bin/Debug" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/main" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Linker>
+			<Add option="-s" />
+			<Add library="lib/array.a" />
+			<Add library="lib/character.a" />
+			<Add library="lib/error.a" />
+			<Add library="lib/expression parser.a" />
+			<Add library="lib/parser.a" />
+			<Add library="lib/prefix tree.a" />
+			<Add library="lib/stream.a" />
+			<Add library="lib/string.a" />
+			<Add library="lib/system library.a" />
+			<Add library="lib/random access structure.a" />
+		</Linker>
+		<Unit filename="../src/extends.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../src/extends.h" />
+		<Unit filename="../src/lib/array.h" />
+		<Unit filename="../src/lib/character.h" />
+		<Unit filename="../src/lib/error.h" />
+		<Unit filename="../src/lib/parser/parser.h" />
+		<Unit filename="../src/lib/parser/tokenizer.h" />
+		<Unit filename="../src/lib/prefix tree.h" />
+		<Unit filename="../src/lib/stream.h" />
+		<Unit filename="../src/lib/string.h" />
+		<Unit filename="../src/lib/system library.h" />
+		<Unit filename="../src/parser/block.c">
+			<Option compilerVar="CC" />
+			<Option target="Debug" />
+		</Unit>
+		<Unit filename="../src/parser/block.h">
+			<Option target="Debug" />
+		</Unit>
+		<Unit filename="../src/parser/condition.c">
+			<Option compilerVar="CC" />
+			<Option target="Debug" />
+		</Unit>
+		<Unit filename="../src/parser/condition.h">
+			<Option target="Debug" />
+		</Unit>
+		<Unit filename="../src/parser/expression.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../src/parser/expression.h" />
+		<Unit filename="../src/parser/keywords.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../src/parser/keywords.h" />
+		<Unit filename="../src/parser/operand.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../src/parser/operand.h" />
+		<Unit filename="../src/parser/parser.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../src/parser/parser.h" />
+		<Unit filename="../src/parser/tokens/assignment.c">
+			<Option compilerVar="CC" />
+			<Option target="Debug" />
+		</Unit>
+		<Unit filename="../src/parser/tokens/assignment.h">
+			<Option target="Debug" />
+		</Unit>
+		<Unit filename="../src/parser/tokens/break.c">
+			<Option compilerVar="CC" />
+			<Option target="Debug" />
+		</Unit>
+		<Unit filename="../src/parser/tokens/break.h">
+			<Option target="Debug" />
+		</Unit>
+		<Unit filename="../src/parser/tokens/comment.c">
+			<Option compilerVar="CC" />
+			<Option target="Debug" />
+		</Unit>
+		<Unit filename="../src/parser/tokens/comment.h">
+			<Option target="Debug" />
+		</Unit>
+		<Unit filename="../src/parser/tokens/continue.c">
+			<Option compilerVar="CC" />
+			<Option target="Debug" />
+		</Unit>
+		<Unit filename="../src/parser/tokens/continue.h">
+			<Option target="Debug" />
+		</Unit>
+		<Unit filename="../src/parser/tokens/do.c">
+			<Option compilerVar="CC" />
+			<Option target="Debug" />
+		</Unit>
+		<Unit filename="../src/parser/tokens/do.h">
+			<Option target="Debug" />
+		</Unit>
+		<Unit filename="../src/parser/tokens/else.c">
+			<Option compilerVar="CC" />
+			<Option target="Debug" />
+		</Unit>
+		<Unit filename="../src/parser/tokens/else.h">
+			<Option target="Debug" />
+		</Unit>
+		<Unit filename="../src/parser/tokens/end.c">
+			<Option compilerVar="CC" />
+			<Option target="Debug" />
+		</Unit>
+		<Unit filename="../src/parser/tokens/end.h">
+			<Option target="Debug" />
+		</Unit>
+		<Unit filename="../src/parser/tokens/for.c">
+			<Option compilerVar="CC" />
+			<Option target="Debug" />
+		</Unit>
+		<Unit filename="../src/parser/tokens/for.h">
+			<Option target="Debug" />
+		</Unit>
+		<Unit filename="../src/parser/tokens/function_call.c">
+			<Option compilerVar="CC" />
+			<Option target="Debug" />
+		</Unit>
+		<Unit filename="../src/parser/tokens/function_call.h">
+			<Option target="Debug" />
+		</Unit>
+		<Unit filename="../src/parser/tokens/function_definition.c">
+			<Option compilerVar="CC" />
+			<Option target="Debug" />
+		</Unit>
+		<Unit filename="../src/parser/tokens/function_definition.h">
+			<Option target="Debug" />
+		</Unit>
+		<Unit filename="../src/parser/tokens/goto.c">
+			<Option compilerVar="CC" />
+			<Option target="Debug" />
+		</Unit>
+		<Unit filename="../src/parser/tokens/goto.h">
+			<Option target="Debug" />
+		</Unit>
+		<Unit filename="../src/parser/tokens/if.c">
+			<Option compilerVar="CC" />
+			<Option target="Debug" />
+		</Unit>
+		<Unit filename="../src/parser/tokens/if.h">
+			<Option target="Debug" />
+		</Unit>
+		<Unit filename="../src/parser/tokens/label.c">
+			<Option compilerVar="CC" />
+			<Option target="Debug" />
+		</Unit>
+		<Unit filename="../src/parser/tokens/label.h">
+			<Option target="Debug" />
+		</Unit>
+		<Unit filename="../src/parser/tokens/loop.c">
+			<Option compilerVar="CC" />
+			<Option target="Debug" />
+		</Unit>
+		<Unit filename="../src/parser/tokens/loop.h">
+			<Option target="Debug" />
+		</Unit>
+		<Unit filename="../src/parser/tokens/while.c">
+			<Option compilerVar="CC" />
+			<Option target="Debug" />
+		</Unit>
+		<Unit filename="../src/parser/tokens/while.h">
+			<Option target="Debug" />
+		</Unit>
+		<Unit filename="../src/parser/types.h" />
+		<Unit filename="../src/parser/variable.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../src/parser/variable.h" />
+		<Unit filename="../src/tests.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

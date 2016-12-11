@@ -1,0 +1,30 @@
+binary 2 bind_to_window  button as Button, window as Window
+	button.window = window
+end 
+
+
+unary is_pressed  button as Button  ->  pressed
+	if data.window.mouse_coord_x > button.x1  and  data.window.mouse_coord_x < button.x2  and
+	   data.window.mouse_coord_y > button.y1  and  data.window.mouse_coord_y < button.y2
+		pressed = 1
+	else
+		pressed = 0
+	end
+end
+
+
+unary is_clicked  button as Button  ->  clicked
+	if button is_pressed
+		if not windows.id_pressed_button
+			window.id_pressed_button = button
+			clicked = 0
+		end
+	else
+		if window.id_pressed_button == button
+			window.id_pressed_button = 0
+			clicked = 1
+		else
+			clicked = 0
+		end
+	end
+end

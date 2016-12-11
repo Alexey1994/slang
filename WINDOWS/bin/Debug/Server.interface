@@ -1,0 +1,13 @@
+operator get: -> data
+operator put: data
+
+
+operator connect: String path -> Server server
+
+Server server
+
+server connect 'localhost:3000'
+
+server = 'localhost':8000
+
+server.bind('/index.html', f)

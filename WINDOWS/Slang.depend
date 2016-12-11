@@ -1,0 +1,328 @@
+# depslib dependency file v1.0
+1476022462 source:d:\Программирование\Мои исходники\c\slang\src\extends.c
+	"extends.h"
+
+1476037868 d:\Программирование\Мои исходники\c\slang\src\extends.h
+	<stdlib.h>
+
+1480719379 source:d:\Программирование\Мои исходники\c\slang\src\parser\expression.c
+	"expression.h"
+	"../lib/expression parser.h"
+	"operand.h"
+
+1480719002 d:\Программирование\Мои исходники\c\slang\src\parser\expression.h
+	"../lib/array.h"
+	"parser.h"
+
+1477212830 d:\Программирование\Мои исходники\c\slang\src\lib\array.h
+
+1477161622 d:\Программирование\Мои исходники\c\slang\src\parser\parser.h
+	"../lib/parser/parser.h"
+
+1476027458 d:\Программирование\Мои исходники\c\slang\src\lib\stream.h
+	"array.h"
+	"../extends.h"
+
+1472067730 d:\Программирование\Мои исходники\c\slang\src\lib\prefix tree.h
+
+1476038276 d:\Программирование\Мои исходники\c\slang\src\lib\string.h
+	"character.h"
+
+1476027133 d:\Программирование\Мои исходники\c\slang\src\lib\character.h
+	"../extends.h"
+
+1477157298 source:d:\Программирование\Мои исходники\c\slang\src\parser\keywords.c
+	"keywords.h"
+
+1477156503 d:\Программирование\Мои исходники\c\slang\src\parser\keywords.h
+	"../extends.h"
+	"../lib/prefix tree.h"
+
+1480719424 source:d:\Программирование\Мои исходники\c\slang\src\parser\operand.c
+	"operand.h"
+
+1476035533 d:\Программирование\Мои исходники\c\slang\src\parser\operand.h
+	"parser.h"
+
+1480717745 source:d:\Программирование\Мои исходники\c\slang\src\parser\parser.c
+	"parser.h"
+	"operand.h"
+	"tokens/function_definition.h"
+	"tokens/comment.h"
+	"tokens/assignment.h"
+	"variable.h"
+
+1475786351 d:\Программирование\Мои исходники\c\slang\src\parser\tokenizer.h
+	"../lib/String.h"
+	"parser.h"
+
+1476038642 d:\Программирование\Мои исходники\c\slang\src\parser\variable.h
+	"parser.h"
+
+1476027573 source:d:\Программирование\Мои исходники\c\slang\src\parser\tokenizer.c
+	"tokenizer.h"
+	"../lib/character.h"
+	"../lib/error.h"
+
+1474192150 d:\Программирование\Мои исходники\c\slang\src\lib\error.h
+
+1477156091 source:d:\Программирование\Мои исходники\c\slang\src\parser\variable.c
+	"variable.h"
+	"../lib/string.h"
+
+1477157319 source:d:\Программирование\Мои исходники\c\slang\src\tests.c
+	<stdio.h>
+	"parser/keywords.h"
+	"parser/parser.h"
+
+1477155969 d:\Программирование\Мои исходники\c\slang\src\lib\parser\parser.h
+	"../stream.h"
+	"../prefix tree.h"
+	"../string.h"
+
+1477159619 source:d:\Программирование\Мои исходники\c\slang\src\parser\tokens\comment.c
+	"comment.h"
+
+1477159546 d:\Программирование\Мои исходники\c\slang\src\parser\tokens\comment.h
+	"../parser.h"
+
+1480761186 source:d:\Программирование\Мои исходники\c\slang\src\parser\tokens\assignment.c
+	"assignment.h"
+	"../expression.h"
+
+1477159906 d:\Программирование\Мои исходники\c\slang\src\parser\tokens\assignment.h
+	"../parser.h"
+
+1477162615 source:d:\Программирование\Мои исходники\c\slang\src\parser\tokens\function_call.c
+	"function_call.h"
+
+1477162630 d:\Программирование\Мои исходники\c\slang\src\parser\tokens\function_call.h
+	"../parser.h"
+
+1477177118 source:d:\Программирование\Мои исходники\c\slang\src\parser\tokens\function_definition.c
+	"function_definition.h"
+
+1477161524 d:\Программирование\Мои исходники\c\slang\src\parser\tokens\function_definition.h
+	"../parser.h"
+
+1480714685 d:\Программирование\Мои исходники\c\slang\src\lib\expression parser.h
+	"character.h"
+	"array.h"
+	"Stream.h"
+
+1476022462 source:c:\Программирование\Мои исходники\c\slang\src\extends.c
+	"extends.h"
+
+1476037868 c:\Программирование\Мои исходники\c\slang\src\extends.h
+	<stdlib.h>
+
+1480968619 source:c:\Программирование\Мои исходники\c\slang\src\parser\expression.c
+	"expression.h"
+	"../lib/expression parser.h"
+	"operand.h"
+
+1480719002 c:\Программирование\Мои исходники\c\slang\src\parser\expression.h
+	"../lib/array.h"
+	"parser.h"
+
+1481139096 c:\Программирование\Мои исходники\c\slang\src\lib\array.h
+	"random access structure.h"
+
+1481049744 c:\Программирование\Мои исходники\c\slang\src\parser\parser.h
+	"../lib/parser/parser.h"
+
+1477155969 c:\Программирование\Мои исходники\c\slang\src\lib\parser\parser.h
+	"../stream.h"
+	"../prefix tree.h"
+	"../string.h"
+
+1476027458 c:\Программирование\Мои исходники\c\slang\src\lib\stream.h
+	"array.h"
+	"../extends.h"
+
+1472067730 c:\Программирование\Мои исходники\c\slang\src\lib\prefix tree.h
+
+1476038276 c:\Программирование\Мои исходники\c\slang\src\lib\string.h
+	"character.h"
+
+1476027133 c:\Программирование\Мои исходники\c\slang\src\lib\character.h
+	"../extends.h"
+
+1480714685 c:\Программирование\Мои исходники\c\slang\src\lib\expression parser.h
+	"character.h"
+	"array.h"
+	"Stream.h"
+
+1480799130 c:\Программирование\Мои исходники\c\slang\src\parser\operand.h
+	"parser.h"
+
+1481141079 source:c:\Программирование\Мои исходники\c\slang\src\parser\keywords.c
+	"keywords.h"
+	"tokens/if.h"
+	"tokens/end.h"
+	"tokens/else.h"
+	"tokens/while.h"
+	"tokens/do.h"
+	"tokens/for.h"
+	"tokens/loop.h"
+	"tokens/goto.h"
+	"tokens/label.h"
+	"tokens/break.h"
+	"tokens/continue.h"
+
+1477156503 c:\Программирование\Мои исходники\c\slang\src\parser\keywords.h
+	"../extends.h"
+	"../lib/prefix tree.h"
+
+1480803922 source:c:\Программирование\Мои исходники\c\slang\src\parser\operand.c
+	"operand.h"
+
+1481141192 source:c:\Программирование\Мои исходники\c\slang\src\parser\parser.c
+	"parser.h"
+	"operand.h"
+	"block.h"
+	"tokens/function_definition.h"
+	"tokens/comment.h"
+	"tokens/assignment.h"
+	"variable.h"
+
+1481141208 c:\Программирование\Мои исходники\c\slang\src\parser\tokens\function_definition.h
+	"../parser.h"
+
+1477159546 c:\Программирование\Мои исходники\c\slang\src\parser\tokens\comment.h
+	"../parser.h"
+
+1477159906 c:\Программирование\Мои исходники\c\slang\src\parser\tokens\assignment.h
+	"../parser.h"
+
+1476038642 c:\Программирование\Мои исходники\c\slang\src\parser\variable.h
+	"parser.h"
+
+1481060617 source:c:\Программирование\Мои исходники\c\slang\src\parser\tokens\assignment.c
+	"assignment.h"
+	"../expression.h"
+
+1477159619 source:c:\Программирование\Мои исходники\c\slang\src\parser\tokens\comment.c
+	"comment.h"
+
+1477162615 source:c:\Программирование\Мои исходники\c\slang\src\parser\tokens\function_call.c
+	"function_call.h"
+
+1477162630 c:\Программирование\Мои исходники\c\slang\src\parser\tokens\function_call.h
+	"../parser.h"
+
+1481141574 source:c:\Программирование\Мои исходники\c\slang\src\parser\tokens\function_definition.c
+	"function_definition.h"
+	"../block.h"
+	"../variable.h"
+
+1477156091 source:c:\Программирование\Мои исходники\c\slang\src\parser\variable.c
+	"variable.h"
+	"../lib/string.h"
+
+1477157319 source:c:\Программирование\Мои исходники\c\slang\src\tests.c
+	<stdio.h>
+	"parser/keywords.h"
+	"parser/parser.h"
+
+1480969479 source:c:\Программирование\Мои исходники\c\slang\src\parser\condition.c
+	"condition.h"
+	"expression.h"
+	"../lib/expression parser.h"
+	"operand.h"
+
+1480968699 c:\Программирование\Мои исходники\c\slang\src\parser\condition.h
+
+1481050051 source:c:\Программирование\Мои исходники\c\slang\src\parser\tokens\if.c
+	"if.h"
+	"../block.h"
+	"else.h"
+	"../condition.h"
+
+1481046316 c:\Программирование\Мои исходники\c\slang\src\parser\tokens\if.h
+	"../parser.h"
+
+1481140802 source:c:\Программирование\Мои исходники\c\slang\src\parser\block.c
+	"block.h"
+	"tokens/while.h"
+	"tokens/do.h"
+	"tokens/loop.h"
+	"tokens/for.h"
+
+1481140772 c:\Программирование\Мои исходники\c\slang\src\parser\block.h
+	"parser.h"
+
+1481048789 source:c:\Программирование\Мои исходники\c\slang\src\parser\tokens\end.c
+	"end.h"
+
+1480974794 c:\Программирование\Мои исходники\c\slang\src\parser\tokens\end.h
+	"../parser.h"
+
+1481048714 c:\Программирование\Мои исходники\c\slang\src\parser\tokens\else.h
+	"../parser.h"
+
+1481048744 source:c:\Программирование\Мои исходники\c\slang\src\parser\tokens\else.c
+	"else.h"
+	"if.h"
+	"../block.h"
+
+1481054742 source:c:\Программирование\Мои исходники\c\slang\src\parser\tokens\while.c
+	"while.h"
+	"../block.h"
+	"do.h"
+
+1481054096 c:\Программирование\Мои исходники\c\slang\src\parser\tokens\while.h
+	"../parser.h"
+	"../condition.h"
+
+1481054944 source:c:\Программирование\Мои исходники\c\slang\src\parser\tokens\do.c
+	"do.h"
+
+1481054846 c:\Программирование\Мои исходники\c\slang\src\parser\tokens\do.h
+	"../parser.h"
+
+1481059811 c:\Программирование\Мои исходники\c\slang\src\parser\tokens\for.h
+	"../parser.h"
+
+1481060478 source:c:\Программирование\Мои исходники\c\slang\src\parser\tokens\for.c
+	"for.h"
+	"../block.h"
+
+1481061136 source:c:\Программирование\Мои исходники\c\slang\src\parser\tokens\loop.c
+	"loop.h"
+	"../block.h"
+
+1481061082 c:\Программирование\Мои исходники\c\slang\src\parser\tokens\loop.h
+	"../parser.h"
+
+1481130641 source:c:\Программирование\Мои исходники\c\slang\src\parser\tokens\goto.c
+	"goto.h"
+	"../block.h"
+
+1481130350 c:\Программирование\Мои исходники\c\slang\src\parser\tokens\goto.h
+	"../parser.h"
+
+1481130867 source:c:\Программирование\Мои исходники\c\slang\src\parser\tokens\label.c
+	"label.h"
+	"../block.h"
+
+1481130711 c:\Программирование\Мои исходники\c\slang\src\parser\tokens\label.h
+	"../parser.h"
+
+1481140785 source:c:\Программирование\Мои исходники\c\slang\src\parser\tokens\break.c
+	"break.h"
+	"../block.h"
+
+1481134172 c:\Программирование\Мои исходники\c\slang\src\parser\tokens\break.h
+	"../parser.h"
+
+1481138456 c:\Программирование\Мои исходники\c\slang\src\lib\random access structure.h
+	"../extends.h"
+
+1481141048 source:c:\Программирование\Мои исходники\c\slang\src\parser\tokens\continue.c
+	"continue.h"
+	"../block.h"
+
+1481140917 c:\Программирование\Мои исходники\c\slang\src\parser\tokens\continue.h
+	"../parser.h"
+

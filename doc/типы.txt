@@ -1,0 +1,35 @@
+Byte a[n]
+
+Integer: a[4]
+Real: Byte value[4]
+
+Vector2d: {
+	Real x
+	Real y
+}
+
+Vector3d: {
+	Real x
+	Real y
+	Real z
+}
+
+
+v = {x y z}
+
+v.x = 0
+v.y = 1
+v.z = 8
+
+a = array with_index i
+
+dot_product: v1{x y z}, v2{x y z} -> dot_product
+	dot_product = v1.x*v2.x + v1.y*v2.y + v1.z*v2.z
+end
+
+dot_product: v1, v2 -> v1_mul_v2
+	v1_mul_v2 = v1.x*v2.x + v1.y*v2.y + v1.z*v2.z
+end
+
+def dot_product(v1, v2)
+	return v1.x*v2.x + v1.y*v2.y + v1.z*v2.z

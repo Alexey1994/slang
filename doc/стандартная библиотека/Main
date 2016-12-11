@@ -1,0 +1,30 @@
+Integer a = 1
+Integer b = 2
+
+print a+b
+
+
+Source output_file
+Source input_file
+
+print get_byte_from input_file
+output_file put_byte 1
+1 put_in output_file
+put_in output_file 1
+
+
+if 1
+	put_in  output_file  get_byte_from  input_file
+end
+
+
+Window window
+Button button
+
+
+button bind_to_window window
+
+
+if button pressed
+	print 'pressed'
+end
